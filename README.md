@@ -3,7 +3,7 @@ A simple Backus Naur Form (BNF) recursion recognizer that can fix left recursion
 
 ## Usage
 Rules should follow the template:
-<nonterminal lhs> ::= <nonterminals> | literals
+\<nonterminal lhs\> ::= \<nonterminals\> | literals
 
 There can only be one nonterminal on the left hand side. The right hand side can
 be a string of any number of terminal and nonterminal symbols. Whitespace can be
@@ -14,8 +14,9 @@ specified on the right hand side and separated by a |.
 Terminal symbols are treated as literals, and must be defined at the top of
 the source file. These literals should be comma separated, and may be defined
 over multiple lines. At the end of the literals definition section, a single
-line containing only ***** END OF LITERAL DEFINITION ***** must be present
-in the source file.
+line containing only
+`***** END OF LITERAL DEFINITION *****`
+must be present in the source file.
 
 ## Errors
 Multiple LR separator (::=) on same line.
