@@ -1,5 +1,5 @@
 ## Introduction
-A simple Backus Naur Form (BNF) recursion recognizer that can fix left recursions.
+A simple Backus Naur Form (BNF) recursion recognizer that can fix left recursions and perform factoring.
 
 ## Usage
 Rules should follow the template:
