@@ -1,0 +1,3 @@
+<A> ::= <B> <A_prime> | ( <A> ) <A_prime>
+<B> ::= i | c
+<A_prime> ::= "|" <A> <A_prime> | * <A_prime> | ε

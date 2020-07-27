@@ -1,0 +1,4 @@
+a, c, d, e, +
+***** END OF LITERAL DEFINITION *****
+<A> ::= +<B>c | +d | +<B>e
+<B> ::= a

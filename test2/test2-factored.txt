@@ -1,0 +1,4 @@
+<B> ::= a
+<A> ::= + <A_split>
+<A_split> ::= <B> <A_split_split> | d
+<A_split_split> ::= c | e

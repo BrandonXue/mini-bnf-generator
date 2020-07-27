@@ -1,0 +1,3 @@
+First(<A>) = {(, i, c}
+First(<B>) = {i, c}
+First(<A_prime>) = {ε, *, "|"}

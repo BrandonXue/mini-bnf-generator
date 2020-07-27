@@ -1,0 +1,4 @@
+First(<B>) = {a}
+First(<A>) = {+}
+First(<A_split>) = {d, a}
+First(<A_split_split>) = {c, e}

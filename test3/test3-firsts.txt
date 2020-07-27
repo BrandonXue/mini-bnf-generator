@@ -1,0 +1,5 @@
+First(<Expression>) = {-, int}
+First(<Term>) = {-, int}
+First(<Factor>) = {-, int}
+First(<Expression_prime>) = {-, ε, +}
+First(<Term_prime>) = {/, ε, *}

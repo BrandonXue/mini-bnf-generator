@@ -1,0 +1,5 @@
++, -, int, *, /
+***** END OF LITERAL DEFINITION *****
+<Expression> ::= <Expression> + <Term> | <Expression> - <Term> | <Term>
+<Term> ::= <Term> * <Factor> | <Term> / <Factor> | <Factor>
+<Factor> ::= int | - int
