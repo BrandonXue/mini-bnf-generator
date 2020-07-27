@@ -3,7 +3,7 @@ A simple Backus Naur Form (BNF) recursion recognizer that can fix left recursion
 
 ## Usage
 Rules should follow the template:
-\<nonterminal lhs\> ::= \<nonterminals\> | literals
+\<nonterminal lhs\> ::= \<nonterminal\> literals | <option2> | <option3> literals
 
 There can only be one nonterminal on the left hand side. The right hand side can
 be a string of any number of terminal and nonterminal symbols. Whitespace can be
